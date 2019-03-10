@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+canvas {
+  background-image: url('../src/background/img/background.jpg');
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.casts {
+  position: absolute;
+  width: 550px;
+  height: 200px;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  left: 34%;
+  top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+.mainHero-HP, .monster-HP {
+  display: inline-block;
+  color:red;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.descriptionKeyBoard {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  border: rgb(16, 150, 56) solid 5px;
+  border-radius: 10px;
+  background-color: rgb(255, 215, 0);
+  z-index: 100;
+  width: 150px;
+  height: 50px;
+  color: #000000;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.send {
+  margin: 10px;
+  border: 5px solid rgb(16, 150, 56);
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgb(255, 215, 0);
+  padding: 5px;
+}
+
+.menu-open {
+  height: 65px;
+  position: absolute;
+  z-index: 4;
+  left: 45%;
+  top: 13%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.game-over {
+  position: absolute;
+  width: 30%;
+  height: 100hv;
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  left: 34%;
+  top: 5%;
+}
+
+.game-over-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+}
+
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+}
+th, td:first-child {
+background: #FFD700;
+color: black;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: black;
+}
+td {
+background: #D8E6F3;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+
+caption {
+  font-size: 25px;
+  font-color: red;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.selected {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
