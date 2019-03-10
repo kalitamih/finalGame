@@ -39,13 +39,10 @@ const answer = document.querySelector('#userAudioInput');
 const audio = document.querySelector('audio');
 
 const audioList = {
-  'https://www.anglaisfacile.com/free/words/w/watch.wav': 'watch',
-  'https://www.anglaisfacile.com/free/words/h/humble.wav': 'humble',
   'https://www.anglaisfacile.com/free/words/r/respect.wav': 'respect',
   'https://www.anglaisfacile.com/free/words/g/ground.wav': 'ground',
   'https://www.anglaisfacile.com/free/words/m/movie.wav': 'movie',
-  'https://www.anglaisfacile.com/free/words/v/vomit.wav': 'vomit',
-  'https://www.anglaisfacile.com/free/words/c/confidence.wav': 'confidence',
+  'https://www.anglaisfacile.com/free/words/v/vomit.wav': 'vomit'  
 };
 
 let randAudio = '';
